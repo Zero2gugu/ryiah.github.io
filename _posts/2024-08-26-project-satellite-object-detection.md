@@ -10,7 +10,7 @@ tags: [YOLO, SR, C++, OpenCV, 数据增广, 小目标检测]
 - 高鲁棒：算法模型在不同的卫星型号上和不同的卫星姿态上都有较好的泛化能力；卫星距离较远时也可以较好地检测到小目标等。
 - 高分辨率：从低分辨率图像中恢复出2倍高分辨率图像，有效提高图像的细节和质量。
 
-![项目主要任务概图](assets\images\2024-08-26-project-satellite-object-detection\tasks.png)
+![项目主要任务概图](assets\images\project-satellite-object-detection\tasks.png)
 
 ## 技术栈
 算法设计阶段，使用Python对数据集进行预处理，并基于Pytorch进行模型训练和迭代优化，训练完成后将模型导出为ONNX模型，并移植部署到软件环境中；
